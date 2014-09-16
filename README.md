@@ -1,23 +1,17 @@
-codekit-kickoff
+jays-codekit-kickoff
 ===============
 
-A scaffolding for use with [CodeKit](http://incident57.com/codekit/)
+A scaffolding for use with [CodeKit](http://incident57.com/codekit/) based off of [Michael Lesher's original](http://github.com/thehive/codekit-kickoff) customized for my own usage.
 
 ## Documentation
 
-Full documentation and structure of the scaffolding can be found at [CodeKit Kickoff](http://kickoff.thehivemedia.com)
+Not yet written.
 
 ## Acknowledgement
 
-CodeKit, jQuery, Bootstrap and Font-Awesome can all be used within this project. I find these frameworks and libraries invaluable to my daily work. I thank everyone who has contributed to them, since they've saved me countless hours.
+Michael Lesher for the original.
 
-To that end, each of these frameworks and libraries have their own Licensing Restrictions. It is your responsibility to be aware of them.
-
-## Contact
-
-- [www.iamlesher.com](http://www.iamlesher.com)
-
-## Project Licensing (CodeKit Kickoff ONLY)
+## Project Licensing (Michael Lesher's CodeKit Kickoff ONLY)
 
 **The MIT License (MIT)** 
 Copyright (c) 2013 The Hive Media
