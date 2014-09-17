@@ -3,13 +3,17 @@ jays-codekit-kickoff
 
 A scaffolding for use with [CodeKit](http://incident57.com/codekit/) based off of [Michael Lesher's original](http://github.com/thehive/codekit-kickoff) customized for my own usage.
 
+## Current state
+
+Work in progress.
+
 ## Documentation
 
 Not yet written.
 
 ## Acknowledgement
 
-Michael Lesher for the original.
+[Michael Lesher](http://www.iamlesher.com) for the original.
 
 ## Project Licensing (Michael Lesher's CodeKit Kickoff ONLY)
 
