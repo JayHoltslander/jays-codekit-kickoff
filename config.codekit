@@ -11,6 +11,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/app\/assets\/css\/custom-styles.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/css\/custom-styles.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/app\/assets\/js\/app.min.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -21,6 +30,15 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 2
+		},
+	"\/app\/content.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/content.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/app\/index.html": {
 		"fileType": 8192,
@@ -42,6 +60,18 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 2
 		},
+	"\/build\/kits\/content.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 0,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/kits\/content.md",
+		"outputAbbreviatedPath": "\/app\/content.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
+		},
 	"\/build\/kits\/index.kit": {
 		"fileType": 2048,
 		"ignore": 0,
@@ -49,23 +79,149 @@
 		"inputAbbreviatedPath": "\/build\/kits\/index.kit",
 		"outputAbbreviatedPath": "\/app\/index.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1
+		"outputPathIsSetByUser": 0
 		},
-	"\/build\/kits\/partials\/footer.kit": {
+	"\/build\/kits\/partials\/_analytics.kit": {
 		"fileType": 2048,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/kits\/partials\/footer.kit",
-		"outputAbbreviatedPath": "\/app\/footer.html",
+		"inputAbbreviatedPath": "\/build\/kits\/partials\/_analytics.kit",
+		"outputAbbreviatedPath": "\/app\/_analytics.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/build\/kits\/partials\/header.kit": {
+	"\/build\/kits\/partials\/_body.kit": {
 		"fileType": 2048,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/kits\/partials\/header.kit",
-		"outputAbbreviatedPath": "\/app\/header.html",
+		"inputAbbreviatedPath": "\/build\/kits\/partials\/_body.kit",
+		"outputAbbreviatedPath": "\/app\/_body.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/build\/kits\/partials\/_doc-head.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/kits\/partials\/_doc-head.kit",
+		"outputAbbreviatedPath": "\/app\/_doc-head.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/build\/kits\/partials\/_doc.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/kits\/partials\/_doc.kit",
+		"outputAbbreviatedPath": "\/app\/_doc.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/build\/kits\/partials\/_footer.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/kits\/partials\/_footer.kit",
+		"outputAbbreviatedPath": "\/app\/_footer.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/build\/kits\/partials\/_header.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/kits\/partials\/_header.kit",
+		"outputAbbreviatedPath": "\/app\/_header.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/build\/kits\/partials\/_icons.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/kits\/partials\/_icons.kit",
+		"outputAbbreviatedPath": "\/app\/_icons.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/build\/kits\/partials\/_imports.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/kits\/partials\/_imports.kit",
+		"outputAbbreviatedPath": "\/app\/_imports.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/build\/kits\/partials\/_javascripts.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/kits\/partials\/_javascripts.kit",
+		"outputAbbreviatedPath": "\/app\/_javascripts.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/build\/kits\/partials\/_metas.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/kits\/partials\/_metas.kit",
+		"outputAbbreviatedPath": "\/app\/_metas.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/build\/kits\/partials\/_sidebar.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/kits\/partials\/_sidebar.kit",
+		"outputAbbreviatedPath": "\/app\/_sidebar.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/build\/kits\/partials\/_site-variables.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/kits\/partials\/_site-variables.kit",
+		"outputAbbreviatedPath": "\/app\/_site-variables.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/build\/kits\/partials\/_stylesheets.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/kits\/partials\/_stylesheets.kit",
+		"outputAbbreviatedPath": "\/app\/_stylesheets.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/build\/kits\/translations\/_english.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/kits\/translations\/_english.kit",
+		"outputAbbreviatedPath": "\/app\/_english.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/build\/kits\/translations\/_french.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/kits\/translations\/_french.kit",
+		"outputAbbreviatedPath": "\/app\/_french.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/build\/kits\/translations\/_spanish.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/kits\/translations\/_spanish.kit",
+		"outputAbbreviatedPath": "\/app\/_spanish.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3081,7 +3237,7 @@
 		},
 	"\/build\/styles\/less\/app.less": {
 		"allowInsecureImports": 0,
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"disableJavascript": 0,
 		"fileType": 1,
 		"ieCompatibility": 1,
@@ -3091,7 +3247,27 @@
 		"outputAbbreviatedPath": "\/app\/assets\/css\/app.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
-		"outputStyle": 2,
+		"outputStyle": 1,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/build\/styles\/less\/custom\/custom-styles.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 1,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/styles\/less\/custom\/custom-styles.less",
+		"outputAbbreviatedPath": "\/app\/assets\/css\/custom-styles.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 1,
 		"relativeURLS": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
@@ -3212,7 +3388,7 @@
 		},
 	"\/build\/styles\/less\/libraries.less": {
 		"allowInsecureImports": 0,
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"disableJavascript": 0,
 		"fileType": 1,
 		"ieCompatibility": 1,
@@ -3222,9 +3398,9 @@
 		"outputAbbreviatedPath": "\/app\/_\/css\/libraries.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 2,
+		"outputStyle": 1,
 		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
+		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"strictImports": 0,
 		"strictMath": 0,
@@ -3404,7 +3580,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Michael Lesher",
+"lastSavedByUser": "Jay Holtslander",
 "manualImportLinks": {
 	"\/build\/js\/app.js": [
 		{
@@ -3423,8 +3599,8 @@
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
-	"displayValue": "Codekit Kickoff",
-	"displayValueWasSetByUser": 0,
+	"displayValue": "Jays Codekit Kickoff",
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "compass_darkGray"
 	},
 "projectSettings": {
